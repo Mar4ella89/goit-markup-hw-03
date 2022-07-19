@@ -35,6 +35,8 @@ ol {
 
 img {
   display: block;
+  max-width: 100%;
+  height: auto;
 }
 
 .list {
@@ -118,17 +120,23 @@ body {
 .menu-nav-container {
   display: flex;
   align-items: center;
-  padding-top: 25px;
-  padding-bottom: 25px;
-}
+ }
 
 .menu-nav {
   display: flex;
+  align-items: center;
 }
 
 .list-nav {
   display: flex;
   align-items: center;
+}
+
+.list-nav .link,
+.contact-nav .link {
+  display: block;
+  padding-top: 32px;
+  padding-bottom: 32px;
 }
 
 .contact-nav {
